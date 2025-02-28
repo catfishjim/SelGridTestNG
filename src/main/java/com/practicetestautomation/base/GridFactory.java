@@ -32,15 +32,15 @@ public class GridFactory {
 
 		switch (browser) {
 		case "chrome":
-			// Make sure to upgrade chromedriver to work with your browser version: https://chromedriver.chromium.org/downloads
-		//	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+			
+			//	System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			//System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 			//driver.set(new ChromeDriver());
 			capabilities.setBrowserName("chrome");
 			break;
 
 		case "edge":
-			// Make sure to upgrade geckodriver to work with your browser version: https://github.com/mozilla/geckodriver/releases
+			
 		//	System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 		//	System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
 		//	System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
@@ -49,7 +49,7 @@ public class GridFactory {
 			break;
 
 		default:
-			//log.debug("Do not know how to start: " + browser + ", starting chrome.");
+		
 			//System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			//System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 			//driver.set(new ChromeDriver());
